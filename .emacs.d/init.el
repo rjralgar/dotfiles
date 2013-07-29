@@ -66,6 +66,11 @@
 (global-set-key "\M-h" 'backward-delete-word)
 (global-set-key "\M-u" 'zap-to-char)
 
+;; -----------------------
+;; -- Other alterations --
+;; -----------------------
+(normal-erase-is-backspace-mode 0)
+
 ;; ---------------------------
 ;; -- JS Mode configuration --
 ;; ---------------------------
